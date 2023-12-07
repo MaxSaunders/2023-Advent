@@ -11,7 +11,6 @@ test('test sample data part 1', () => {
 })
 
 test('test final data part 1', () => {
-    // console.log({ finalSolution: main(readFile(DATA)) })
     expect(main(readFile(DATA))).toBe(553825)
 })
 
@@ -20,6 +19,5 @@ test('test sample data part 2', () => {
 })
 
 test('test final data part 2', () => {
-    // console.log({ finalPart2: main2(readFile(DATA)) })
     expect(main2(readFile(DATA))).toBe(93994191)
 })
